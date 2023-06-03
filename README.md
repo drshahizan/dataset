@@ -33,5 +33,5 @@ Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for an
 You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
 ![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
-![](https://komarev.com/ghpvc/?username=drshahizan&label=Profile%20views&color=0e75b6&style=flat)
+![](https://komarev.com/ghpvc/?username=drshahizan&label=Views&color=0e75b6&style=flat)
 
