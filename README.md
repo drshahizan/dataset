@@ -11,7 +11,6 @@ Don't forget to hit the :star: if you like this repo.
 
 ## MongoDB
 Note: One dataset will be assigned to one student.
-Apologies for the oversight. Here's an updated table with the links included:
 
 | Id | Title (JSON File) | Link (Used Icon) |
 |----|-------------------------------------------------------------------------------------------------------|------------------|
