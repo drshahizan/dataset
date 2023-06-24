@@ -54,7 +54,171 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | transactions       | Array      | A list of individual transaction details.              |
 
 ## Sample Document
+Sure! Here's the JSON code in Markdown format:
 
+**Comments**
+```json
+{
+  "_id": {
+    "$oid": "5a9427648b0beebeb69579cc"
+  },
+  "name": "Andrea Le",
+  "email": "andrea_le@fakegmail.com",
+  "movie_id": {
+    "$oid": "573a1390f29313caabcd418c"
+  },
+  "text": "Rem officiis eaque repellendus amet eos doloribus. Porro dolor voluptatum voluptates neque culpa molestias. Voluptate unde nulla temporibus ullam.",
+  "date": {
+    "$date": {
+      "$numberLong": "1332804016000"
+    }
+  }
+}
+```
+
+**Customers**
+```json
+{
+  "_id": {
+    "$oid": "5ca4bbcea2dd94ee58162a68"
+  },
+  "username": "fmiller",
+  "name": "Elizabeth Ray",
+  "address": "9286 Bethany Glens\nVasqueztown, CO 22939",
+  "birthdate": {
+    "$date": {
+      "$numberLong": "226117231000"
+    }
+  },
+  "email": "arroyocolton@gmail.com",
+  "active": true,
+  "accounts": [
+    {
+      "$numberInt": "371138"
+    },
+    {
+      "$numberInt": "324287"
+    },
+    {
+      "$numberInt": "276528"
+    },
+    {
+      "$numberInt": "332179"
+    },
+    {
+      "$numberInt": "422649"
+    },
+    {
+      "$numberInt": "387979"
+    }
+  ],
+  "tier_and_details": {
+    "0df078f33aa74a2e9696e0520c1a828a": {
+      "tier": "Bronze",
+      "id": "0df078f33aa74a2e9696e0520c1a828a",
+      "active": true,
+      "benefits": [
+        "sports tickets"
+      ]
+    },
+    "699456451cc24f028d2aa99d7534c219": {
+      "tier": "Bronze",
+      "benefits": [
+        "24 hour dedicated line",
+        "concierge services"
+      ],
+      "active": true,
+      "id": "699456451cc24f028d2aa99d7534c219"
+    }
+  }
+}
+```
+
+**Transactions**
+```json
+{
+  "_id": {
+    "$oid": "5ca4bbc1a2dd94ee58161cb1"
+  },
+  "account_id": {
+    "$numberInt": "443178"
+  },
+  "transaction_count": {
+    "$numberInt": "66"
+  },
+  "bucket_start_date": {
+    "$date": {
+      "$numberLong": "-28598400000"
+    }
+  },
+  "bucket_end_date": {
+    "$date": {
+      "$numberLong": "1483401600000"
+    }
+  },
+  "transactions": [
+    {
+      "date": {
+        "$date": {
+          "$numberLong": "1063065600000"
+        }
+      },
+      "amount": {
+        "$numberInt": "7514"
+      },
+      "transaction_code": "buy",
+      "symbol": "adbe",
+      "price": "19.1072802650074180519368383102118968963623046875",
+      "total": "143572.1039112657392422534031"
+    },
+{
+  "date": {
+    "$date": {
+      "$numberLong": "1094601600000"
+    }
+  },
+  "amount": {
+    "$numberInt": "4322"
+  },
+  "transaction_code": "sell",
+  "symbol": "adbe",
+  "price": "42.51562081021308972541965598201751708984375",
+  "total": "183602.639526138149307764731"
+},
+{
+  "date": {
+    "$date": {
+      "$numberLong": "1107484800000"
+    }
+  },
+  "amount": {
+    "$numberInt": "5523"
+  },
+  "transaction_code": "buy",
+  "symbol": "adbe",
+  "price": "42.20494826784123509772421693006134033203125",
+  "total": "233032.6036405981249497238341"
+},
+{
+  "date": {
+    "$date": {
+      "$numberLong": "1120166400000"
+    }
+  },
+  "amount": {
+    "$numberInt": "3088"
+  },
+  "transaction_code": "sell",
+  "symbol": "adbe",
+  "price": "42.8742247023131658949199438240528106689453125",
+  "total": "132501.4532070292530454655487"
+}
+]
+}
+
+```
+
+--- asal
 **Accounts**
 ```json
 {
