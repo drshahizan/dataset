@@ -21,139 +21,127 @@ The database contains data on movies and movie theaters. The database also conta
 
 ## Data Dictionary
 
-The dataset consists of three tables: "Accounts," "Customers," and "Transactions." Each table represents a specific aspect of the data and provides valuable information it.
+Certainly! Here's the updated data dictionary for each JSON file with the data types included:
 
-**Accounts**
+### Comments
 
-| Field        | Type       | Description                                          |
-|--------------|------------|------------------------------------------------------|
-| account_id   | Integer    | The unique identifier for the account.                |
-| limit        | Integer    | The account's limit.                                 |
-| products     | Array      | A list of products associated with the account.       |
+| Field         | Type         | Description                                 |
+|---------------|--------------|---------------------------------------------|
+| `_id`         | ObjectId     | Unique identifier for the comment.           |
+| `name`        | String       | Name of the commenter.                       |
+| `email`       | String       | Email address of the commenter.              |
+| `movie_id`    | ObjectId     | Unique identifier of the associated movie.   |
+| `text`        | String       | The actual comment text.                     |
+| `date`        | Date         | Date and time of the comment.                |
 
+### Movies
 
-**Customers**
+| Field                | Type          | Description                                                       |
+|----------------------|---------------|-------------------------------------------------------------------|
+| `_id`                | ObjectId      | Unique identifier for the movie.                                   |
+| `plot`               | String        | Brief description or summary of the movie.                         |
+| `genres`             | Array[String] | Array of genres associated with the movie.                         |
+| `runtime`            | NumberInt     | Duration of the movie in minutes.                                  |
+| `cast`               | Array[String] | Array of actors appearing in the movie.                            |
+| `num_mflix_comments` | NumberInt     | Number of comments/reviews for the movie.                          |
+| `title`              | String        | Title of the movie.                                                |
+| `fullplot`           | String        | Detailed description or plot summary of the movie.                 |
+| `countries`          | Array[String] | Array of countries where the movie was produced.                   |
+| `released`           | Date          | Date of movie release.                                             |
+| `directors`          | Array[String] | Array of directors of the movie.                                   |
+| `rated`              | String        | Rating of the movie (e.g., "UNRATED", "PG-13").                     |
+| `awards`             | Object        | Information about the awards won by the movie.                     |
+| `lastupdated`        | String        | Date and time of the last update to the movie information.          |
+| `year`               | NumberInt     | Year of the movie release.                                         |
+| `imdb`               | Object        | IMDb-related information, including rating, votes, and ID.          |
+| `type`               | String        | Type of content (e.g., "movie", "series").                          |
+| `tomatoes`           | Object        | Information related to the movie's rating on Rotten Tomatoes.       |
 
-| Field            | Type       | Description                                              |
-|------------------|------------|----------------------------------------------------------|
-| username         | String     | The username of the customer.                             |
-| name             | String     | The name of the customer.                                 |
-| address          | String     | The customer's address.                                   |
-| birthdate        | Date       | The customer's birthdate in UNIX timestamp format.        |
-| email            | String     | The customer's email address.                             |
-| accounts         | Array      | A list of account IDs associated with the customer.       |
-| tier_and_details | Object     | Additional details about the customer's tier.             |
+### Theaters
 
+| Field             | Type                | Description                                             |
+|-------------------|---------------------|---------------------------------------------------------|
+| `_id`             | ObjectId            | Unique identifier for the theater.                      |
+| `theaterId`       | NumberInt           | Identifier for the theater.                             |
+| `location`        | Object              | Location information of the theater, including address and geographic coordinates. |
 
-**Transactions**
+### Users
 
-| Field              | Type       | Description                                           |
-|--------------------|------------|-------------------------------------------------------|
-| account_id         | Integer    | The unique identifier for the account associated with the transactions. |
-| transaction_count  | Integer    | The number of transactions.                           |
-| bucket_start_date  | Date       | The start date of the transaction bucket in UNIX timestamp format. |
-| bucket_end_date    | Date       | The end date of the transaction bucket in UNIX timestamp format. |
-| transactions       | Array      | A list of individual transaction details.              |
-
-Please note that the data types provided in the table are based on the example data provided in the JSON files.
+| Field         | Type         | Description                                 |
+|---------------|--------------|---------------------------------------------|
+| `_id`         | ObjectId     | Unique identifier for the user.              |
+| `name`        | String       | Name of the user.                            |
+| `email`       | String       | Email address of the user.                   |
+| `password`    | String       | Encrypted password of the user.              |
 
 ## Sample Document
 
-**Accounts**
+**Comments**
 ```json
 {
-  "account_id": 470650,
-  "limit": 10000,
-  "products": [
-    "CurrencyService",
-    "Commodity",
-    "InvestmentStock"
-  ]
+  "_id": {"$oid": "5a9427648b0beebeb69579cc"},
+  "name": "Andrea Le",
+  "email": "andrea_le@fakegmail.com",
+  "movie_id": {"$oid": "573a1390f29313caabcd418c"},
+  "text": "Rem officiis eaque repellendus amet eos doloribus. Porro dolor voluptatum voluptates neque culpa molestias. Voluptate unde nulla temporibus ullam.",
+  "date": {"$date": {"$numberLong": "1332804016000"}}
 }
 ```
 
-**Customers**
+**Movies**
 ```json
 {
- "username": "lejoshua",
- "name": "Michael Johnson",
- "address": "15989 Edward Inlet\nLake Maryton, NC 39545",
- "birthdate": {"$date": 54439275000},
- "email": "courtneypaul@gmail.com",
- "accounts": [
-   470650,
-   443178
- ],
- "tier_and_details": {
-   "b5f19cb532fa436a9be2cf1d7d1cac8a": {
-      "tier": "Silver",
-      "benefits": [
-        "dedicated account representative"
-      ],
-      "active": true,
-      "id": "b5f19cb532fa436a9be2cf1d7d1cac8a"
-      }
- }
+  "_id": {"$oid": "573a1390f29313caabcd4135"},
+  "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
+  "genres": ["Short"],
+  "runtime": {"$numberInt": "1"},
+  "cast": ["Charles Kayser", "John Ott"],
+  "num_mflix_comments": {"$numberInt": "1"},
+  "title": "Blacksmith Scene",
+  "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+  "countries": ["USA"],
+  "released": {"$date": {"$numberLong": "-2418768000000"}},
+  "directors": ["William K.L. Dickson"],
+  "rated": "UNRATED",
+  "awards": {"wins": {"$numberInt": "1"}, "nominations": {"$numberInt": "0"}, "text": "1 win."},
+  "lastupdated": "2015-08-26 00:03:50.133000000",
+  "year": {"$numberInt": "1893"},
+  "imdb": {"rating": {"$numberDouble": "6.2"}, "votes": {"$numberInt": "1189"}, "id": {"$numberInt": "5"}},
+  "type": "movie",
+  "tomatoes": {
+    "viewer": {"rating": {"$numberInt": "3"}, "numReviews": {"$numberInt": "184"}, "meter": {"$numberInt": "32"}},
+    "lastUpdated": {"$date": {"$numberLong": "1435516449000"}}
+  }
 }
 ```
 
-**Transactions**
+**Theaters**
 ```json
 {
-  "account_id": 794875,
-  "transaction_count": 6,
-  "bucket_start_date": {"$date": 693792000000},
-  "bucket_end_date": {"$date": 1473120000000},
-  "transactions": [
-    {
-      "date": {"$date": 1325030400000},
-      "amount": 1197,
-      "transaction_code": "buy",
-      "symbol": "nvda",
-      "price": "12.7330024299341033611199236474931240081787109375",
-      "total": "15241.40390863112172326054861"
+  "_id": {"$oid": "59a47286cfa9a3a73e51e72c"},
+  "theaterId": {"$numberInt": "1000"},
+  "location": {
+    "address": {
+      "street1": "340 W Market",
+      "city": "Bloomington",
+      "state": "MN",
+      "zipcode": "55425"
     },
-    {
-       "date": {"$date": 1465776000000},
-       "amount": 8797,
-       "transaction_code": "buy",
-       "symbol": "nvda",
-       "price": "46.53873172406391489630550495348870754241943359375",
-       "total": "409401.2229765902593427995271"
-    },
-    {
-       "date": {"$date": 1472601600000},
-       "amount": 6146,
-       "transaction_code": "sell",
-       "symbol": "ebay",
-       "price": "32.11600884852845894101847079582512378692626953125",
-       "total": "197384.9903830559086514995215"
-    },
-    {
-       "date": {"$date": 1101081600000},
-       "amount": 253,
-       "transaction_code": "buy",
-       "symbol": "amzn",
-       "price": "37.77441226157566944721111212857067584991455078125",
-       "total": "9556.926302178644370144411369"
-    },
-    {
-       "date": {"$date": 1022112000000},
-       "amount": 4521,
-       "transaction_code": "buy",
-       "symbol": "nvda",
-       "price": "10.763069758141103449133879621513187885284423828125",
-       "total": "48659.83837655592869353426977"
-    },
-    {
-       "date": {"$date": 936144000000},
-       "amount": 955,
-       "transaction_code": "buy",
-       "symbol": "csco",
-       "price": "27.992136535152877030441231909207999706268310546875",
-       "total": "26732.49039107099756407137647"
+    "geo": {
+      "type": "Point",
+      "coordinates": [{"$numberDouble": "-93.24565"}, {"$numberDouble": "44.85466"}]
     }
-  ]
+  }
+}
+```
+
+**Users**
+```json
+{
+  "_id": {"$oid": "59b99db4cfa9a34dcd7885b6"},
+  "name": "Ned Stark",
+  "email": "sean_bean@gameofthron.es",
+  "password": "$2b$12$UREFwsRUoyF0CRqGNK0LzO0HM/jLhgUCNNIJ9RJAqMUQ74crlJ1Vu"
 }
 ```
 
