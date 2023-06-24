@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 |----|---------|-------------|:------:|
 | 1  | Sample Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 2  | Analytics Dataset | Contains training data for a mock financial services application.	 | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 3  | movies.json | - | [GitHub]() |
+| 3  | Mflix Dataset | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 4  | grades.json | - | [GitHub]( ) |
 | 5  | stories.json | - | [GitHub]() |
 | 6  | customers.json | - | [GitHub]() |
