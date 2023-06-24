@@ -23,7 +23,7 @@ The database contains data on movies and movie theaters. The database also conta
 
 Certainly! Here's the updated data dictionary for each JSON file with the data types included:
 
-### Comments
+**Comments**
 
 | Field         | Type         | Description                                 |
 |---------------|--------------|---------------------------------------------|
