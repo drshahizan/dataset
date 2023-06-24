@@ -21,8 +21,6 @@ The database contains data on movies and movie theaters. The database also conta
 
 ## Data Dictionary
 
-Certainly! Here's the updated data dictionary for each JSON file with the data types included:
-
 **Comments**
 
 | Field         | Type         | Description                                 |
