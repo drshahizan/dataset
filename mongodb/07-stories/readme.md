@@ -92,7 +92,7 @@ The "stories.json" file contains information about a specific story.
 
 | Download <img alt="activity status" height="24" src="../../images/download.png" />|
 |:---:|
-| <a href="companies.json" ><img src="../../images/dataset.png" ></a>|
+| <a href="stories.json" ><img src="../../images/dataset.png" ></a>|
 
 
 ## Contribution 🛠️
