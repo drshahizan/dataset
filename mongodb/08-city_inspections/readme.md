@@ -8,178 +8,49 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Companies Dataset
-
-This collection contains information on companies listed on Crunchbase. It has a variety of information such as the company website and/or blog websites about the company, funding rounds, and known individuals associated with the company.
+# City Inspections Dataset
+The City Inspections Dataset provides information about inspections conducted in a city. 
 
 ## Data Dictionary
 
-| Field                  | Type           | Description |
-|------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|
-| `_id` | Object         | Unique identifier for the company                                                                                    |
-| `acquisition` | Null           | Information about the company's acquisition |
-| `acquisitions` | Array          | List of acquisitions made by the company |
-| `alias_list` | Null           | List of alternative names or aliases for the company |
-| `blog_feed_url` | String         | URL of the company's blog feed |
-| `blog_url` | String         | URL of the company's blog |
-| `category_code` | String         | Category code representing the company's industry or sector |
-| `competitions` | Array          | List of competitors for the company |
-| `created_at` | String         | Date and time when the company's information was created |
-| `crunchbase_url` | String         | URL of the company's Crunchbase profile |
-| `deadpooled_day` | Null           | Day when the company was declared dead or no longer operational |
-| `deadpooled_month` | Null           | Month when the company was declared dead or no longer operational |
-| `deadpooled_url` | Null           | URL providing additional information about the company's deadpooled status |
-| `deadpooled_year` | Null           | Year when the company was declared dead or no longer operational |
-| `description` | Null           | Description of the company |
-| `email_address` | String         | Email address of the company |
-| `external_links` | Array          | List of external links related to the company |
-| `founded_day` | Integer        | Day when the company was founded |
-| `founded_month` | Integer        | Month when the company was founded |
-| `founded_year` | Integer        | Year when the company was founded |
-| `funding_rounds` | Array          | List of funding rounds for the company |
-| `homepage_url` | String         | URL of the company's homepage |
-| `image` | Object         | Information about the company's image or logo |
-| `investments` | Array          | List of investments made by the company |
-| `ipo` | Null           | Information about the company's initial public offering (IPO) |
-| `milestones` | Array          | List of milestones achieved by the company |
-| `name` | String         | Name of the company |
-| `number_of_employees` | Integer        | Number of employees at the company |
-| `offices` | Array          | List of offices or locations associated with the company |
-| `overview` | String         | Overview or description of the company |
-| `partners` | Array          | List of partners or affiliations of the company |
-| `permalink` | String         | Unique permalink or URL slug for the company |
-| `phone_number` | String         | Phone number of the company |
-| `products` | Array          | List of products offered by the company |
-| `providerships` | Array          | List of providerships or partnerships of the company |
-| `relationships` | Array          | List of relationships or roles of individuals associated with the company |
-| `screenshots` | Array          | List of screenshots or images associated with the company |
-| `tag_list` | Null           | List of tags or keywords associated with the company |
-| `total_money_raised` | String         | Total amount of money raised by the company |
-| `twitter_username` | Null           | Twitter username of the company |
-| `updated_at` | String         | Date and time when the company's information was last updated |
-| `video_embeds` | Array          | List of video embeds associated with the company |
+| No | Field                 | Type     | Description                                       |
+|----|-----------------------|----------|---------------------------------------------------|
+| 1  | \_id                  | Object   | Unique identifier for the inspection record        |
+| 2  | id                    | String   | Identifier for the inspection                     |
+| 3  | certificate_number    | Number   | Certificate number associated with the business    |
+| 4  | business_name         | String   | Name of the inspected business                    |
+| 5  | date                  | String   | Date of the inspection                            |
+| 6  | result                | String   | Result of the inspection                           |
+| 7  | sector                | String   | Sector or category of the business                |
+| 8  | address               | Object   | Address details of the business                    |
+| 8a | - city                | String   | City where the business is located                |
+| 8b | - zip                 | Number   | ZIP code of the business                          |
+| 8c | - street              | String   | Street name of the business                       |
+| 8d | - number              | Number   | Street number of the business                     |
 
 ## Sample Document
 
 ```json
 {
-  "_id": {
-      "$oid": "52cdef7c4bab8bd675298291"
-  },
-  "acquisition": null,
-  "acquisitions": [],
-  "alias_list": null,
-  "blog_feed_url": "http://mobiance.wordpress.com/feed/",
-  "blog_url": "http://mobiance.wordpress.com/",
-  "category_code": "web",
-  "competitions": [],
-  "created_at": "Tue Feb 12 17:31:58 UTC 2008",
-  "crunchbase_url": "http://www.crunchbase.com/company/mobiance",
-  "deadpooled_day": null,
-  "deadpooled_month": null,
-  "deadpooled_url": null,
-  "deadpooled_year": null,
-  "description": null,
-  "email_address": "info@mobiance.com",
-  "external_links": [],
-  "founded_day": {
-      "$numberInt": "1"
-  },
-  "founded_month": {
-      "$numberInt": "10"
-  },
-  "founded_year": {
-      "$numberInt": "2004"
-  },
-  "funding_rounds": [],
-  "homepage_url": "http://www.mobiance.com",
-  "image": {
-      "attribution": null,
-      "available_sizes": [
-          [
-              [
-                  {
-                      "$numberInt": "150"
-                  },
-                  {
-                      "$numberInt": "43"
-                  }
-              ],
-              "assets/images/resized/0001/1859/11859v1-max-150x150.png"
-          ],
-          [
-              [
-                  {
-                      "$numberInt": "208"
-                  },
-                  {
-                      "$numberInt": "60"
-                  }
-              ],
-              "assets/images/resized/0001/1859/11859v1-max-250x250.png"
-          ],
-          [
-              [
-                  {
-                      "$numberInt": "208"
-                  },
-                  {
-                      "$numberInt": "60"
-                  }
-              ],
-              "assets/images/resized/0001/1859/11859v1-max-450x450.png"
-          ]
-      ]
-  },
-  "investments": [],
-  "ipo": null,
-  "milestones": [],
-  "name": "Mobiance",
-  "number_of_employees": {
-      "$numberInt": "5"
-  },
-  "offices": [
-      {
-          "address1": "BC-3, Atrium Business Center,",
-          "address2": "Coles Road, Frazer Town,",
-          "city": "Bangalore",
-          "country_code": "IND",
-          "description": null,
-          "latitude": null,
-          "longitude": null,
-          "state_code": null,
-          "zip_code": "560005"
-      }
-  ],
-  "overview": "<p>Mobiance provides the technology to track cell phones ...",
-  "partners": [],
-  "permalink": "mobiance",
-  "phone_number": "+91-80- 41264756",
-  "products": [],
-  "providerships": [],
-  "relationships": [
-      {
-          "is_past": true,
-          "person": {
-              "first_name": "Ritesh",
-              "last_name": "Ambastha",
-              "permalink": "ritesh-ambastha"
-          },
-          "title": "Product Manager"
-      }
-  ],
-  "screenshots": [],
-  "tag_list": null,
-  "total_money_raised": "$0",
-  "twitter_username": null,
-  "updated_at": "Thu Dec 01 07:37:10 UTC 2011",
-  "video_embeds": []
+  "_id": { "$oid": "56d61033a378eccde8a8354f" },
+  "id": "10021-2015-ENFO",
+  "certificate_number": 9278806,
+  "business_name": "ATLIXCO DELI GROCERY INC.",
+  "date": "Feb 20 2015",
+  "result": "No Violation Issued",
+  "sector": "Cigarette Retail Dealer - 127",
+  "address": {
+    "city": "RIDGEWOOD",
+    "zip": 11385,
+    "street": "MENAHAN ST",
+    "number": 1712
+  }
 }
 ```
 
 | Download <img alt="activity status" height="24" src="../../images/download.png" />|
 |:---:|
-| <a href="companies.json" ><img src="../../images/dataset.png" ></a>|
+| <a href="city_inspections.json" ><img src="../../images/dataset.png" ></a>|
 
 
 ## Contribution 🛠️

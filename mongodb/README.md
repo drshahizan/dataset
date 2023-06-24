@@ -3,29 +3,22 @@
 <a href="https://github.com/drshahizan/dataset/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/dataset" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/dataset/issues"><img src="https://img.shields.io/github/issues/drshahizan/dataset" alt="Issues Badge"/></a>
 <a href="https://github.com/drshahizan/dataset/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/dataset?color=2b9348"></a>
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdataset&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2Fdataset&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 Don't forget to hit the :star: if you like this repo.
 
 # Dataset
 
-## MongoDB
-Note: One dataset will be assigned to one student.
-
-| Id | Title (JSON File) | Link (Used Icon) |
-|----|-------------------------------------------------------------------------------------------------------|------------------|
-| 1  | sales.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_supplies/sales.json) |
-| 2  | accounts.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_analytics/accounts.json) |
-| 3  | movies.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_mflix/movies.json) |
-| 4  | grades.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_training/grades.json) |
-| 5  | stories.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_training/stories.json) |
-| 6  | customers.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_analytics/customers.json) |
-| 7  | trips.json | [GitHub](https://github.com/neelabalan/mongodb-sampledataset/blob/cfcfab536c68b1bb238adac2e3ffb7e9cb012395/sample_training/trips.json) |
-| 8  | nicd_hospital_surveillance_data.csv | [GitHub](https://github.com/dsfsi/covid19za/blob/e994a5695defbff5ca03e292e7dea904e0386034/data/nicd_hospital_surveillance_data.csv) |
-| 9  | dataset.json | [GitHub](https://github.com/agabardo/nyc_restaurants/blob/afbd7763298928732a4569e4541e114eec12d61e/downloaded-dataset/dataset.json) |
-| 10 | city_inspections.json | [GitHub](https://github.com/ozlerhakan/mongodb-jsonfiles/blob/71ff2d5724f0742d9e49c336d8713399c4ae2dfe/datasets/city_inspections.json) |
-| 11 | products.json | [GitHub](https://github.com/ozlerhakan/mongodb-jsonfiles/blob/71ff2d5724f0742d9e49c336d8713399c4ae2dfe/datasets/products.json) |
-| 12 | airline-safety.csv | [GitHub](https://github.com/fivethirtyeight/data/blob/b22a21b264162ad0b5d8954b02e0bca5ab782113/airline-safety/airline-safety.csv) |
+| Id | Dataset | Description | File |
+|----|---------|-------------|:------:|
+| 1  | Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="01-sales" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="02-analytics" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 3  | Mflix Dataset | Contains movie data. | <a href="03-movie" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 4  | Companies Dataset | This collection contains information on companies listed on Crunchbase. | <a href="04-training" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="05-airbnb" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 6  | Tweets Dataset | Contains tweets data. | <a href="06-tweets" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 7  | Stories Dataset | Contains information about a specific story.  | <a href="07-stories" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 8  | City inspections Dataset | Contains information about a specific inspections.  | <a href="08-city_inspections" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
