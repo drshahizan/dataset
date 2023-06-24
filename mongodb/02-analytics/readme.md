@@ -44,9 +44,7 @@ The dataset provides valuable insights into the sales activities of the office s
 
 ## Sample Document
 
-Here are the provided sample documents in a Markdown format:
-
-**Sample Document 1**
+**Accounts**
 ```json
 {
   "account_id": 470650,
@@ -59,7 +57,7 @@ Here are the provided sample documents in a Markdown format:
 }
 ```
 
-**Sample Document 2**
+**Customers**
 ```json
 {
  "username": "lejoshua",
@@ -84,7 +82,7 @@ Here are the provided sample documents in a Markdown format:
 }
 ```
 
-**Sample Document 3**
+**Transactions**
 ```json
 {
   "account_id": 794875,
@@ -137,9 +135,7 @@ Here are the provided sample documents in a Markdown format:
        "amount": 955,
        "transaction_code": "buy",
        "symbol": "csco",
-       "price":
-
- "27.992136535152877030441231909207999706268310546875",
+       "price": "27.992136535152877030441231909207999706268310546875",
        "total": "26732.49039107099756407137647"
     }
   ]
