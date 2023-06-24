@@ -179,7 +179,7 @@ This collection contains information on companies listed on Crunchbase. It has a
 
 | Download <img alt="activity status" height="24" src="../../images/download.png" />|
 |:---:|
-| <a href="companies" ><img src="../../images/dataset.png" ></a>|
+| <a href="companies.json" ><img src="../../images/dataset.png" ></a>|
 
 
 ## Contribution 🛠️
