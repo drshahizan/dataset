@@ -11,14 +11,14 @@ Don't forget to hit the :star: if you like this repo.
 
 | Id | Dataset | Description | File |
 |----|---------|-------------|:------:|
-| 1  | Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 3  | Mflix Dataset | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 4  | Companies Dataset | This collection contains information on companies listed on Crunchbase. | <a href="/mongodb/04-companies" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="/mongodb/05-airbnb" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 6  | Tweets Dataset | Contains tweets data. | <a href="/mongodb/06-tweets" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 7  | Stories Dataset | Contains information about a specific story.  | <a href="/mongodb/07-stories" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 8  | City inspections Dataset | Contains information about a specific inspections.  | <a href="/mongodb/08-city_inspections" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 1  | Supply Store | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 2  | Analytics | Contains training data for a mock financial services application. | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 3  | Mflix | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 4  | Companies | This collection contains information on companies listed on Crunchbase. | <a href="/mongodb/04-companies" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 5  | Airbnb Listings | Contains details on AirBnB listings. | <a href="/mongodb/05-airbnb" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 6  | Tweets | Contains tweets data. | <a href="/mongodb/06-tweets" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 7  | Stories | Contains information about a specific story.  | <a href="/mongodb/07-stories" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 8  | City inspections | Contains information about a specific inspections.  | <a href="/mongodb/08-city_inspections" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
