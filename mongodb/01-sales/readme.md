@@ -10,25 +10,11 @@ Don't forget to hit the :star: if you like this repo.
 
 # Dataset: sales.json
 
-The `sample_supplies` database contains data from a mock office supply company. The company tracks customer information and sales data, and has several store locations throughout the world.
-
-To learn how to load the sample data provided by Atlas into your cluster, see [Load Sample Data](#load-sample-data).
-
-## Collections
-
 This database contains a single collection called `sales`.
 
-Each document in the `sample_supplies.sales` collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale.
+Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale.
 
-## Indexes
-
-The `sample_supplies.sales` collection contains the following indexes:
-
-| Name  | Index              | Description                             |
-|-------|--------------------|-----------------------------------------|
-| _id_  | { "_id": 1 }       | Primary key index on the `_id` field.    |
-
-## Sample Document (json file)
+## Sample Document
 
 ```json
 {
