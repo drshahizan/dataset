@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Companies Dataset
+# Tweets Dataset
 
 This collection contains information on companies listed on Crunchbase. It has a variety of information such as the company website and/or blog websites about the company, funding rounds, and known individuals associated with the company.
 
