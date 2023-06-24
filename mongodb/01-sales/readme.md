@@ -28,6 +28,19 @@ Each document in the collection represents a single sale from a store run by the
   },
   "items": [
     {
+      "name": "printer paper",
+      "tags": [
+        "office",
+        "stationary"
+      ],
+      "price": {
+        "$numberDecimal": "40.01"
+      },
+      "quantity": {
+        "$numberInt": "2"
+      }
+    },
+    {
       "name": "notepad",
       "tags": [
         "office",
@@ -57,6 +70,34 @@ Each document in the collection represents a single sale from a store run by the
       }
     },
     {
+      "name": "backpack",
+      "tags": [
+        "school",
+        "travel",
+        "kids"
+      ],
+      "price": {
+        "$numberDecimal": "77.71"
+      },
+      "quantity": {
+        "$numberInt": "2"
+      }
+    },
+    {
+      "name": "notepad",
+      "tags": [
+        "office",
+        "writing",
+        "school"
+      ],
+      "price": {
+        "$numberDecimal": "18.47"
+      },
+      "quantity": {
+        "$numberInt": "2"
+      }
+    },
+    {
       "name": "envelopes",
       "tags": [
         "stationary",
@@ -68,6 +109,20 @@ Each document in the collection represents a single sale from a store run by the
       },
       "quantity": {
         "$numberInt": "8"
+      }
+    },
+    {
+      "name": "envelopes",
+      "tags": [
+        "stationary",
+        "office",
+        "general"
+      ],
+      "price": {
+        "$numberDecimal": "8.08"
+      },
+      "quantity": {
+        "$numberInt": "3"
       }
     },
     {
