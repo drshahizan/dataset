@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | 4  | Companies Dataset | This collection contains information on companies listed on Crunchbase. | <a href="/mongodb/04-training" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="/mongodb/05-airbnb" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 6  | Tweets Dataset | Contains tweets data. | <a href="/mongodb/06-tweets" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 7  | Stories Dataset | Contains information about a specific story.  | <a href="/mongodb/06-tweets" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 7  | Stories Dataset | Contains information about a specific story.  | <a href="/mongodb/07-stories" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
