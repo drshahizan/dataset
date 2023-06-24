@@ -14,16 +14,50 @@ This collection contains information on companies listed on Crunchbase. It has a
 
 ## Data Dictionary
 
-**Comments**
-
-| Field         | Type         | Description                                 |
-|---------------|--------------|---------------------------------------------|
-| `_id`         | ObjectId     | Unique identifier for the comment.           |
-| `name`        | String       | Name of the commenter.                       |
-| `email`       | String       | Email address of the commenter.              |
-| `movie_id`    | ObjectId     | Unique identifier of the associated movie.   |
-| `text`        | String       | The actual comment text.                     |
-| `date`        | Date         | Date and time of the comment.                |
+| Field                  | Type           | Description |
+|------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|
+| `_id` | Object         | Unique identifier for the company                                                                                    |
+| `acquisition` | Null           | Information about the company's acquisition |
+| `acquisitions` | Array          | List of acquisitions made by the company |
+| `alias_list` | Null           | List of alternative names or aliases for the company |
+| `blog_feed_url` | String         | URL of the company's blog feed |
+| `blog_url` | String         | URL of the company's blog |
+| `category_code` | String         | Category code representing the company's industry or sector |
+| `competitions` | Array          | List of competitors for the company |
+| `created_at` | String         | Date and time when the company's information was created |
+| `crunchbase_url` | String         | URL of the company's Crunchbase profile |
+| `deadpooled_day` | Null           | Day when the company was declared dead or no longer operational |
+| `deadpooled_month` | Null           | Month when the company was declared dead or no longer operational |
+| `deadpooled_url` | Null           | URL providing additional information about the company's deadpooled status |
+| `deadpooled_year` | Null           | Year when the company was declared dead or no longer operational |
+| `description` | Null           | Description of the company |
+| `email_address` | String         | Email address of the company |
+| `external_links` | Array          | List of external links related to the company |
+| `founded_day` | Integer        | Day when the company was founded |
+| `founded_month` | Integer        | Month when the company was founded |
+| `founded_year` | Integer        | Year when the company was founded |
+| `funding_rounds` | Array          | List of funding rounds for the company |
+| `homepage_url` | String         | URL of the company's homepage |
+| `image` | Object         | Information about the company's image or logo |
+| `investments` | Array          | List of investments made by the company |
+| `ipo` | Null           | Information about the company's initial public offering (IPO) |
+| `milestones` | Array          | List of milestones achieved by the company |
+| `name` | String         | Name of the company |
+| `number_of_employees` | Integer        | Number of employees at the company |
+| `offices` | Array          | List of offices or locations associated with the company |
+| `overview` | String         | Overview or description of the company |
+| `partners` | Array          | List of partners or affiliations of the company |
+| `permalink` | String         | Unique permalink or URL slug for the company |
+| `phone_number` | String         | Phone number of the company |
+| `products` | Array          | List of products offered by the company |
+| `providerships` | Array          | List of providerships or partnerships of the company |
+| `relationships` | Array          | List of relationships or roles of individuals associated with the company |
+| `screenshots` | Array          | List of screenshots or images associated with the company |
+| `tag_list` | Null           | List of tags or keywords associated with the company |
+| `total_money_raised` | String         | Total amount of money raised by the company |
+| `twitter_username` | Null           | Twitter username of the company |
+| `updated_at` | String         | Date and time when the company's information was last updated |
+| `video_embeds` | Array          | List of video embeds associated with the company |
 
 ## Sample Document
 
