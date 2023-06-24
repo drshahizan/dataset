@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 | 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 3  | Mflix Dataset | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 4  | Training Dataset | Contains training services dataset. | <a href="/mongodb/04-training" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="/mongodb/airbnb" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="/mongodb/05-airbnb" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
