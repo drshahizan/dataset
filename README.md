@@ -14,15 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 | 1  | Sample Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 2  | Analytics Dataset | Contains training data for a mock financial services application.	 | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 3  | Mflix Dataset | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 4  | grades.json | - | [GitHub]( ) |
-| 5  | stories.json | - | [GitHub]() |
-| 6  | customers.json | - | [GitHub]() |
-| 7  | trips.json | - | [GitHub]() |
-| 8  | nicd_hospital_surveillance_data.csv | - | [GitHub]() |
-| 9  | dataset.json | - | [GitHub]() |
-| 10 | city_inspections.json | - | [GitHub]() |
-| 11 | products.json | - | [GitHub]() |
-| 12 | airline-safety.csv | - | [GitHub]() |
+| 4  | Training Dataset | Contains training services dataset. | <a href="/mongodb/04-training" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 
 The "Description" column provides a brief description of each dataset. For the datasets other than "sales.json", the description column is currently empty.
 
