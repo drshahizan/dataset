@@ -14,8 +14,6 @@ The "stories.json" file contains information about a specific story.
 
 ## Data Dictionary
 
-Here's a table data dictionary for the "stories.json" file:
-
 | Field Name    | Data Type     | Description                                                                                          |
 |---------------|---------------|------------------------------------------------------------------------------------------------------|
 | _id           | ObjectId      | Unique identifier for the story                                                                       |
