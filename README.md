@@ -11,8 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 
 | Id | Dataset | Description | File |
 |----|---------|-------------|:------:|
-| 1  | Sales | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 2  | accounts.json | - | [GitHub]() |
+| 1  | Sample Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 2  | Analytics Dataset | Contains training data for a mock financial services application.	 | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 3  | movies.json | - | [GitHub]() |
 | 4  | grades.json | - | [GitHub]( ) |
 | 5  | stories.json | - | [GitHub]() |
