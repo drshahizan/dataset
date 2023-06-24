@@ -19,7 +19,7 @@ Each document in the collection represents a single sale from a store run by the
 ## Data Dictionary
 
 | No. | Field           | Description                                                                                    |
-|-----|-----------------|------------------------------------------------------------------------------------------------|
+|-----:|-----------------|------------------------------------------------------------------------------------------------|
 | 1   | _id             | A unique identifier for the sale document.                                                    |
 | 2   | saleDate        | The date and time of the sale.                                                                 |
 | 3   | items           | An array of items purchased in the sale.                                                       |
