@@ -9,6 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 
 # City Inspections Dataset
+The City Inspections Dataset provides information about inspections conducted in a city. 
 
 ## Data Dictionary
 
