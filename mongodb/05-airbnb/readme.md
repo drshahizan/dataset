@@ -287,7 +287,7 @@ The airbnb database is a compilation of vacation home listings and reviews avail
 
 | Download <img alt="activity status" height="24" src="../../images/download.png" />|
 |:---:|
-| <a href="listingsAndReviews.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
+| <a href="listingsAndReviews.json" ><img src="../../images/dataset.png" ></a>|
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
