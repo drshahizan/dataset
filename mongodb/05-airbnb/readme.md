@@ -32,49 +32,9 @@ The airbnb database is a compilation of vacation home listings and reviews avail
 | `text`        | String       | The actual comment text.                     |
 | `date`        | Date         | Date and time of the comment.                |
 
-**Movies**
-
-| Field                | Type          | Description                                                       |
-|----------------------|---------------|-------------------------------------------------------------------|
-| `_id`                | ObjectId      | Unique identifier for the movie.                                   |
-| `plot`               | String        | Brief description or summary of the movie.                         |
-| `genres`             | Array[String] | Array of genres associated with the movie.                         |
-| `runtime`            | NumberInt     | Duration of the movie in minutes.                                  |
-| `cast`               | Array[String] | Array of actors appearing in the movie.                            |
-| `num_mflix_comments` | NumberInt     | Number of comments/reviews for the movie.                          |
-| `title`              | String        | Title of the movie.                                                |
-| `fullplot`           | String        | Detailed description or plot summary of the movie.                 |
-| `countries`          | Array[String] | Array of countries where the movie was produced.                   |
-| `released`           | Date          | Date of movie release.                                             |
-| `directors`          | Array[String] | Array of directors of the movie.                                   |
-| `rated`              | String        | Rating of the movie (e.g., "UNRATED", "PG-13").                     |
-| `awards`             | Object        | Information about the awards won by the movie.                     |
-| `lastupdated`        | String        | Date and time of the last update to the movie information.          |
-| `year`               | NumberInt     | Year of the movie release.                                         |
-| `imdb`               | Object        | IMDb-related information, including rating, votes, and ID.          |
-| `type`               | String        | Type of content (e.g., "movie", "series").                          |
-| `tomatoes`           | Object        | Information related to the movie's rating on Rotten Tomatoes.       |
-
-**Theaters**
-
-| Field             | Type                | Description                                             |
-|-------------------|---------------------|---------------------------------------------------------|
-| `_id`             | ObjectId            | Unique identifier for the theater.                      |
-| `theaterId`       | NumberInt           | Identifier for the theater.                             |
-| `location`        | Object              | Location information of the theater, including address and geographic coordinates. |
-
-**Users**
-
-| Field         | Type         | Description                                 |
-|---------------|--------------|---------------------------------------------|
-| `_id`         | ObjectId     | Unique identifier for the user.              |
-| `name`        | String       | Name of the user.                            |
-| `email`       | String       | Email address of the user.                   |
-| `password`    | String       | Encrypted password of the user.              |
 
 ## Sample Document
 
-**Comments**
 ```json
 {
   "_id": "10006546",
