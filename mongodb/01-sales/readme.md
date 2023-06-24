@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Analytics Dataset
+# Supply Store Dataset
 
 This database contains a single collection called `sales`.
 
