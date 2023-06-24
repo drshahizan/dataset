@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Dataset: sales.json
+# Analytics Dataset
 
 This database contains a single collection called `sales`.
 
