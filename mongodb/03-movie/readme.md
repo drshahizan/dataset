@@ -14,9 +14,10 @@ The database contains data on movies and movie theaters. The database also conta
 
 | Collection Name | Description                                |
 |-----------------|--------------------------------------------|
-| Accounts        | This collection contains account details for users. Each document contains an account id, a limit and the products that a customer has purchased. |
-| Customers       | This collection contains customers details including what accounts they hold users. Each document contains username, name, address, birth date, email address, a list of the accounts held, and details on the tiers and related benefits they are entitled to. |
-| Transactions    | This collection contains transactions details for users. Each document contains an account id, a count of how many transactions are in this set, the start and end dates for transactions covered by this document, and a list of sub documents. Each sub document represents a single transaction and the related information for that transaction. |
+| Comments | This collection contains comments associated with specific movies. Each document contains the comment text, the user who submitted it, and the movie the comment applies to. |
+| Movies | This collection contains details on movies. Each document contains a single movie, and information such as its title, release year, and cast. |
+| Theaters | This collection contains movie theater locations. Each document contains a single movie theater and its location in both string and GeoJSON forms.|
+|Users| This collection contains information on mflix users. Each document contains a single user, and their name, email, and password.|
 
 ## Data Dictionary
 
