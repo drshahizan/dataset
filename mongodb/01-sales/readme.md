@@ -14,6 +14,30 @@ This database contains a single collection called `sales`.
 
 Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale.
 
+## Here is the updated data dictionary table with a title:
+
+## Data Dictionary
+
+| No. | Field           | Description                                                                                    |
+|-----|-----------------|------------------------------------------------------------------------------------------------|
+| 1   | _id             | A unique identifier for the sale document.                                                    |
+| 2   | saleDate        | The date and time of the sale.                                                                 |
+| 3   | items           | An array of items purchased in the sale.                                                       |
+|     | - name          | The name of the item.                                                                         |
+|     | - tags          | An array of tags describing the item.                                                          |
+|     | - price         | The price of the item.                                                                        |
+|     | - quantity      | The quantity of the item purchased.                                                            |
+| 4   | storeLocation   | The location of the store where the sale took place.                                           |
+| 5   | customer        | Information about the customer who made the purchase.                                          |
+|     | - gender        | The gender of the customer.                                                                   |
+|     | - age           | The age of the customer.                                                                      |
+|     | - email         | The email address of the customer.                                                             |
+|     | - satisfaction  | The satisfaction level of the customer.                                                        |
+| 6   | couponUsed      | A boolean value indicating whether a coupon was used in the sale.                              |
+| 7   | purchaseMethod  | The method of purchase, such as "Online" or "In-store".                                        |
+
+Please note that the "items" and "customer" fields contain nested attributes represented as sub-tables within the main table.
+
 ## Sample Document
 
 ```json
