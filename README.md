@@ -13,7 +13,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Id | Title (JSON File) | Link (Used Icon) |
 |----|-------------------------------------------------------------------------------------------------------|------------------|
-| 1  | sales.json | [GitHub](/mongodb/01-sales/readme.md) |
+| 1  | sales.json | <a href="/mongodb/01-sales" ><img src="../../images/dataset.png"></a> |
 | 2  | accounts.json | [GitHub]() |
 | 3  | movies.json | [GitHub]() |
 | 4  | grades.json | [GitHub]( ) |
