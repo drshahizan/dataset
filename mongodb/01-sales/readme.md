@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 
 This database contains a single collection called `sales`.
 
-Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale.
+Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale. It contains information about individual sales transactions, including the items purchased, customer details, store location, coupon usage, and purchase method.
 
 ## Data Dictionary
 
@@ -34,7 +34,9 @@ Each document in the collection represents a single sale from a store run by the
 | 6   | couponUsed      | A boolean value indicating whether a coupon was used in the sale.                              |
 | 7   | purchaseMethod  | The method of purchase, such as "Online" or "In-store".                                        |
 
-Please note that the "items" and "customer" fields contain nested attributes represented as sub-tables within the main table.
+>Please note that the "items" and "customer" fields contain nested attributes represented as sub-tables within the main table.
+
+The dataset provides valuable insights into the sales activities of the office supply company, including the specific items sold, customer demographics, store locations, and sales channels. Analyzing this dataset can help identify popular items, customer preferences, sales trends, and other relevant business insights.
 
 ## Sample Document
 
