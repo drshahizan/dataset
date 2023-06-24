@@ -44,145 +44,108 @@ The dataset provides valuable insights into the sales activities of the office s
 
 ## Sample Document
 
+Here are the provided sample documents in a Markdown format:
+
+**Sample Document 1**
 ```json
 {
-  "_id": {
-    "$oid": "5bd761dcae323e45a93ccfe8"
-  },
-  "saleDate": {
-    "$date": {
-      "$numberLong": "1427144809506"
-    }
-  },
-  "items": [
-    {
-      "name": "printer paper",
-      "tags": [
-        "office",
-        "stationary"
-      ],
-      "price": {
-        "$numberDecimal": "40.01"
-      },
-      "quantity": {
-        "$numberInt": "2"
-      }
-    },
-    {
-      "name": "notepad",
-      "tags": [
-        "office",
-        "writing",
-        "school"
-      ],
-      "price": {
-        "$numberDecimal": "35.29"
-      },
-      "quantity": {
-        "$numberInt": "2"
-      }
-    },
-    {
-      "name": "pens",
-      "tags": [
-        "writing",
-        "office",
-        "school",
-        "stationary"
-      ],
-      "price": {
-        "$numberDecimal": "56.12"
-      },
-      "quantity": {
-        "$numberInt": "5"
-      }
-    },
-    {
-      "name": "backpack",
-      "tags": [
-        "school",
-        "travel",
-        "kids"
-      ],
-      "price": {
-        "$numberDecimal": "77.71"
-      },
-      "quantity": {
-        "$numberInt": "2"
-      }
-    },
-    {
-      "name": "notepad",
-      "tags": [
-        "office",
-        "writing",
-        "school"
-      ],
-      "price": {
-        "$numberDecimal": "18.47"
-      },
-      "quantity": {
-        "$numberInt": "2"
-      }
-    },
-    {
-      "name": "envelopes",
-      "tags": [
-        "stationary",
-        "office",
-        "general"
-      ],
-      "price": {
-        "$numberDecimal": "19.95"
-      },
-      "quantity": {
-        "$numberInt": "8"
-      }
-    },
-    {
-      "name": "envelopes",
-      "tags": [
-        "stationary",
-        "office",
-        "general"
-      ],
-      "price": {
-        "$numberDecimal": "8.08"
-      },
-      "quantity": {
-        "$numberInt": "3"
-      }
-    },
-    {
-      "name": "binder",
-      "tags": [
-        "school",
-        "general",
-        "organization"
-      ],
-      "price": {
-        "$numberDecimal": "14.16"
-      },
-      "quantity": {
-        "$numberInt": "3"
-      }
-    }
-  ],
-  "storeLocation": "Denver",
-  "customer": {
-    "gender": "M",
-    "age": {
-      "$numberInt": "42"
-    },
-    "email": "cauho@witwuta.sv",
-    "satisfaction": {
-      "$numberInt": "4"
-    }
-  },
-  "couponUsed": true,
-  "purchaseMethod": "Online"
+  "account_id": 470650,
+  "limit": 10000,
+  "products": [
+    "CurrencyService",
+    "Commodity",
+    "InvestmentStock"
+  ]
 }
 ```
+
+**Sample Document 2**
+```json
+{
+ "username": "lejoshua",
+ "name": "Michael Johnson",
+ "address": "15989 Edward Inlet\nLake Maryton, NC 39545",
+ "birthdate": {"$date": 54439275000},
+ "email": "courtneypaul@gmail.com",
+ "accounts": [
+   470650,
+   443178
+ ],
+ "tier_and_details": {
+   "b5f19cb532fa436a9be2cf1d7d1cac8a": {
+      "tier": "Silver",
+      "benefits": [
+        "dedicated account representative"
+      ],
+      "active": true,
+      "id": "b5f19cb532fa436a9be2cf1d7d1cac8a"
+      }
+ }
+}
+```
+
+**Sample Document 3**
+```json
+{
+  "account_id": 794875,
+  "transaction_count": 6,
+  "bucket_start_date": {"$date": 693792000000},
+  "bucket_end_date": {"$date": 1473120000000},
+  "transactions": [
+    {
+      "date": {"$date": 1325030400000},
+      "amount": 1197,
+      "transaction_code": "buy",
+      "symbol": "nvda",
+      "price": "12.7330024299341033611199236474931240081787109375",
+      "total": "15241.40390863112172326054861"
+    },
+    {
+       "date": {"$date": 1465776000000},
+       "amount": 8797,
+       "transaction_code": "buy",
+       "symbol": "nvda",
+       "price": "46.53873172406391489630550495348870754241943359375",
+       "total": "409401.2229765902593427995271"
+    },
+    {
+       "date": {"$date": 1472601600000},
+       "amount": 6146,
+       "transaction_code": "sell",
+       "symbol": "ebay",
+       "price": "32.11600884852845894101847079582512378692626953125",
+       "total": "197384.9903830559086514995215"
+    },
+    {
+       "date": {"$date": 1101081600000},
+       "amount": 253,
+       "transaction_code": "buy",
+       "symbol": "amzn",
+       "price": "37.77441226157566944721111212857067584991455078125",
+       "total": "9556.926302178644370144411369"
+    },
+    {
+       "date": {"$date": 1022112000000},
+       "amount": 4521,
+       "transaction_code": "buy",
+       "symbol": "nvda",
+       "price": "10.763069758141103449133879621513187885284423828125",
+       "total": "48659.83837655592869353426977"
+    },
+    {
+       "date": {"$date": 936144000000},
+       "amount": 955,
+       "transaction_code": "buy",
+       "symbol": "csco",
+       "price":
+
+ "27.992136535152877030441231909207999706268310546875",
+       "total": "26732.49039107099756407137647"
+    }
+  ]
+}
+```
+
 
 | <img alt="activity status" align="right" height="24" src="../../images/download.png" /> Download |
 |:---:|
