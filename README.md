@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 # Dataset
 
 | Id | Dataset | Description | File |
-|----|---------|-------------|------|
+|----|---------|-------------|:------:|
 | 1  | Sales | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 2  | accounts.json | - | [GitHub]() |
 | 3  | movies.json | - | [GitHub]() |
