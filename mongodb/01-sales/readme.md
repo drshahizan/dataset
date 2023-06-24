@@ -180,6 +180,11 @@ The dataset provides valuable insights into the sales activities of the office s
 }
 ```
 
+| <img alt="activity status" align="right" height="24" src="../../images/dataset.png" /> 😎 My students |
+|:---|
+| 1. [Qaisara](https://github.com/qaisarrra) <br> 2. [Low Junyi](https://github.com/LowJunyi2001) <br> 3. [Ahmad Aiman Hafizi bin Muhammad](https://github.com/AimanHafizi619) <br> 4. [KONG JIA ROU](https://github.com/jrkong2001utm) <br> 5. [Hong Pei Geok](https://github.com/peiyu00) <br> 6. [El Insyiraah](https://github.com/elleamyr) <br> 7. [SEPRIYANDI BIN AGUSR](https://github.com/sepz36) <br> 8. [Charlene A](https://github.com/Chikoness) <br> 9. [Neo Zheng Weng](https://github.com/zw-weng) <br> 10. [Wan Nur Sofea](https://github.com/wannursofea)<br> 11. [Camily Tang](https://github.com/camilytang)<br> 12. [Ng Shu Yu](https://github.com/ShuYu03) |
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
