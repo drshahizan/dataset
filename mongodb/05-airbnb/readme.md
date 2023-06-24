@@ -21,17 +21,43 @@ The airbnb database is a compilation of vacation home listings and reviews avail
 
 ## Data Dictionary
 
-**Comments**
+| Field                    | Type           | Description                                                                                              |
+|--------------------------|----------------|----------------------------------------------------------------------------------------------------------|
+| _id                      | String         | Unique identifier for the listing                                                                         |
+| listing_url              | String         | URL of the listing on Airbnb                                                                              |
+| name                     | String         | Name of the listing                                                                                       |
+| summary                  | String         | Summary description of the listing                                                                         |
+| interaction              | String         | Information about interaction with the host                                                               |
+| house_rules              | String         | House rules for guests                                                                                    |
+| property_type            | String         | Type of property (e.g., house, apartment, etc.)                                                           |
+| room_type                | String         | Type of room (e.g., entire home/apt, private room, etc.)                                                  |
+| bed_type                 | String         | Type of bed (e.g., real bed, sofa bed, etc.)                                                              |
+| minimum_nights           | String         | Minimum number of nights for a booking                                                                     |
+| maximum_nights           | String         | Maximum number of nights for a booking                                                                     |
+| cancellation_policy      | String         | Cancellation policy for the listing                                                                        |
+| last_scraped             | Date           | Date when the listing was last scraped                                                                     |
+| calendar_last_scraped    | Date           | Date when the calendar was last scraped                                                                    |
+| first_review             | Date           | Date of the first review for the listing                                                                   |
+| last_review              | Date           | Date of the most recent review for the listing                                                             |
+| accommodates             | Integer        | Number of guests the listing can accommodate                                                               |
+| bedrooms                 | Integer        | Number of bedrooms                                                                                        |
+| beds                     | Integer        | Number of beds                                                                                            |
+| number_of_reviews        | Integer        | Total number of reviews for the listing                                                                    |
+| bathrooms                | Decimal        | Number of bathrooms                                                                                       |
+| amenities                | Array of strings | List of amenities provided in the listing                                                                  |
+| price                    | Decimal        | Price per night                                                                                           |
+| security_deposit         | Decimal        | Security deposit amount                                                                                    |
+| cleaning_fee             | Decimal        | Cleaning fee amount                                                                                        |
+| extra_people             | Decimal        | Additional fee for extra guests                                                                            |
+| guests_included          | Decimal        | Number of guests included in the base price                                                                |
+| images                   | Object         | URLs of images associated with the listing                                                                 |
+| host                     | Object         | Information about the host                                                                                 |
+| address                  | Object         | Address information for the listing                                                                        |
+| availability             | Object         | Availability information for the listing                                                                   |
+| review_scores            | Object         | Ratings and scores for the listing                                                                         |
+| reviews                  | Array of objects | List of reviews for the listing                                                                            |
 
-| Field         | Type         | Description                                 |
-|---------------|--------------|---------------------------------------------|
-| `_id`         | ObjectId     | Unique identifier for the comment.           |
-| `name`        | String       | Name of the commenter.                       |
-| `email`       | String       | Email address of the commenter.              |
-| `movie_id`    | ObjectId     | Unique identifier of the associated movie.   |
-| `text`        | String       | The actual comment text.                     |
-| `date`        | Date         | Date and time of the comment.                |
-
+Note: The data types in the table correspond to the JSON data types used in the provided file.
 
 ## Sample Document
 
