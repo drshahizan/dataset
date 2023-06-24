@@ -14,9 +14,10 @@ The analytics database contains three collections for a typical finanacial servi
 
 | Collection Name | Description                                |
 |-----------------|--------------------------------------------|
-| accounts        | Contains details on customer accounts.     |
-| customers       | Contains details on customers.             |
-| transactions    | Contains customer transactions.            |
+| accounts        | This collection contains account details for users. Each document contains an account id, a limit and the products that a customer has purchased. |
+| customers       | This collection contains customers details including what accounts they hold users. Each document contains username, name, address, birth date, email address, a list of the accounts held, and details on the tiers and related benefits they are entitled to. |
+| transactions    | This collection contains transactions details for 
+users. Each document contains an account id, a count of how many transactions are in this set, the start and end dates for transactions covered by this document, and a list of sub documents. Each sub document represents a single transaction and the related information for that transaction. |
 
 ## Data Dictionary
 
