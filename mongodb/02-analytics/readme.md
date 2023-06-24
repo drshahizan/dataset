@@ -20,27 +20,41 @@ The analytics database contains three collections for a typical finanacial servi
 
 ## Data Dictionary
 
-| No. | Field           | Description                                                                                    |
-|-----:|-----------------|------------------------------------------------------------------------------------------------|
-| 1   | _id             | A unique identifier for the sale document.                                                    |
-| 2   | saleDate        | The date and time of the sale.                                                                 |
-| 3   | items           | An array of items purchased in the sale.                                                       |
-|     | - name          | The name of the item.                                                                         |
-|     | - tags          | An array of tags describing the item.                                                          |
-|     | - price         | The price of the item.                                                                        |
-|     | - quantity      | The quantity of the item purchased.                                                            |
-| 4   | storeLocation   | The location of the store where the sale took place.                                           |
-| 5   | customer        | Information about the customer who made the purchase.                                          |
-|     | - gender        | The gender of the customer.                                                                   |
-|     | - age           | The age of the customer.                                                                      |
-|     | - email         | The email address of the customer.                                                             |
-|     | - satisfaction  | The satisfaction level of the customer.                                                        |
-| 6   | couponUsed      | A boolean value indicating whether a coupon was used in the sale.                              |
-| 7   | purchaseMethod  | The method of purchase, such as "Online" or "In-store".                                        |
+Here are the data dictionaries represented in table format for each collection:
 
->Please note that the "items" and "customer" fields contain nested attributes represented as sub-tables within the main table.
+**Accounts**
 
-The dataset provides valuable insights into the sales activities of the office supply company, including the specific items sold, customer demographics, store locations, and sales channels. Analyzing this dataset can help identify popular items, customer preferences, sales trends, and other relevant business insights.
+| Field        | Type       | Description                                          |
+|--------------|------------|------------------------------------------------------|
+| account_id   | Integer    | The unique identifier for the account.                |
+| limit        | Integer    | The account's limit.                                 |
+| products     | Array      | A list of products associated with the account.       |
+
+
+**Customers**
+
+| Field            | Type       | Description                                              |
+|------------------|------------|----------------------------------------------------------|
+| username         | String     | The username of the customer.                             |
+| name             | String     | The name of the customer.                                 |
+| address          | String     | The customer's address.                                   |
+| birthdate        | Date       | The customer's birthdate in UNIX timestamp format.        |
+| email            | String     | The customer's email address.                             |
+| accounts         | Array      | A list of account IDs associated with the customer.       |
+| tier_and_details | Object     | Additional details about the customer's tier.             |
+
+
+**Transactions**
+
+| Field              | Type       | Description                                           |
+|--------------------|------------|-------------------------------------------------------|
+| account_id         | Integer    | The unique identifier for the account associated with the transactions. |
+| transaction_count  | Integer    | The number of transactions.                           |
+| bucket_start_date  | Date       | The start date of the transaction bucket in UNIX timestamp format. |
+| bucket_end_date    | Date       | The end date of the transaction bucket in UNIX timestamp format. |
+| transactions       | Array      | A list of individual transaction details.              |
+
+Please note that the data types provided in the table are based on the example data provided in the JSON files.
 
 ## Sample Document
 
