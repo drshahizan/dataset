@@ -14,8 +14,6 @@ This database contains a single collection called `sales`.
 
 Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale.
 
-## Here is the updated data dictionary table with a title:
-
 ## Data Dictionary
 
 | No. | Field           | Description                                                                                    |
