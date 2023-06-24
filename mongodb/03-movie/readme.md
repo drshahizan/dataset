@@ -34,7 +34,7 @@ Certainly! Here's the updated data dictionary for each JSON file with the data t
 | `text`        | String       | The actual comment text.                     |
 | `date`        | Date         | Date and time of the comment.                |
 
-### Movies
+**Movies**
 
 | Field                | Type          | Description                                                       |
 |----------------------|---------------|-------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Certainly! Here's the updated data dictionary for each JSON file with the data t
 | `type`               | String        | Type of content (e.g., "movie", "series").                          |
 | `tomatoes`           | Object        | Information related to the movie's rating on Rotten Tomatoes.       |
 
-### Theaters
+**Theaters**
 
 | Field             | Type                | Description                                             |
 |-------------------|---------------------|---------------------------------------------------------|
@@ -65,7 +65,7 @@ Certainly! Here's the updated data dictionary for each JSON file with the data t
 | `theaterId`       | NumberInt           | Identifier for the theater.                             |
 | `location`        | Object              | Location information of the theater, including address and geographic coordinates. |
 
-### Users
+**Users**
 
 | Field         | Type         | Description                                 |
 |---------------|--------------|---------------------------------------------|
