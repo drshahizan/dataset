@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Id | Dataset | Description | File |
 |----|---------|-------------|:------:|
-| 1  | Sample Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 1  | Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="/mongodb/02-analytics" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 3  | Mflix Dataset | Contains movie data. | <a href="/mongodb/03-movie" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 4  | Training Dataset | Contains training services dataset. | <a href="/mongodb/04-training" ><img src="images/dataset.png" width="24px" height="24px"></a> |
