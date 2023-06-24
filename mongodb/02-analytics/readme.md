@@ -43,7 +43,6 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | accounts         | Array      | A list of account IDs associated with the customer.       |
 | tier_and_details | Object     | Additional details about the customer's tier.             |
 
-
 **Transactions**
 
 | Field              | Type       | Description                                           |
@@ -53,8 +52,6 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | bucket_start_date  | Date       | The start date of the transaction bucket in UNIX timestamp format. |
 | bucket_end_date    | Date       | The end date of the transaction bucket in UNIX timestamp format. |
 | transactions       | Array      | A list of individual transaction details.              |
-
-Please note that the data types provided in the table are based on the example data provided in the JSON files.
 
 ## Sample Document
 
