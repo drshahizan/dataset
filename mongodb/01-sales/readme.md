@@ -180,7 +180,7 @@ The dataset provides valuable insights into the sales activities of the office s
 }
 ```
 
-| <img alt="activity status" align="right" height="24" src="../../images/dataset.png" /> ✅ Download |
+| <img alt="activity status" align="right" height="24" src="../../images/kotak.svg" /> ✅ Download |
 |:---:|
 |  <a href="sales.json" ><img src="../../images/dataset.png"></a> |
 
