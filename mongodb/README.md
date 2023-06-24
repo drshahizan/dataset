@@ -12,13 +12,13 @@ Don't forget to hit the :star: if you like this repo.
 | Id | Dataset | Description | File |
 |----|---------|-------------|:------:|
 | 1  | Supply Store Dataset | Dataset containing sales data from the mock office supply company. | <a href="01-sales" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="/02-analytics" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 3  | Mflix Dataset | Contains movie data. | <a href="/03-movie" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 4  | Companies Dataset | This collection contains information on companies listed on Crunchbase. | <a href="/04-training" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="/05-airbnb" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 6  | Tweets Dataset | Contains tweets data. | <a href="/06-tweets" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 7  | Stories Dataset | Contains information about a specific story.  | <a href="/07-stories" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
-| 8  | City inspections Dataset | Contains information about a specific inspections.  | <a href="/08-city_inspections" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 2  | Analytics Dataset | Contains training data for a mock financial services application. | <a href="02-analytics" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 3  | Mflix Dataset | Contains movie data. | <a href="03-movie" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 4  | Companies Dataset | This collection contains information on companies listed on Crunchbase. | <a href="04-training" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 5  | Airbnb Listings Dataset | Contains details on AirBnB listings. | <a href="05-airbnb" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 6  | Tweets Dataset | Contains tweets data. | <a href="06-tweets" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 7  | Stories Dataset | Contains information about a specific story.  | <a href="07-stories" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
+| 8  | City inspections Dataset | Contains information about a specific inspections.  | <a href="08-city_inspections" ><img src="../images/dataset.png" width="24px" height="24px"></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
