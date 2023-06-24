@@ -8,9 +8,9 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Mflix Dataset
+# Airbnb Listings Dataset
 
-The database contains data on movies and movie theaters. The database also contains collections for certain metadata, including users and comments on specific movies.
+The airbnb database is a compilation of vacation home listings and reviews available on Inside AirBnB. This database contains a single collection called `listingsAndReviews`. The `listingsAndReviews` collection contains documents that represent the vacation home listing details and reviews of customers about the listing. These documents reflect a randomized subset of the original publicly available source, from several different cities around the globe.
 
 | Collection Name | Description                                |
 |-----------------|--------------------------------------------|
@@ -77,69 +77,234 @@ The database contains data on movies and movie theaters. The database also conta
 **Comments**
 ```json
 {
-  "_id": {"$oid": "5a9427648b0beebeb69579cc"},
-  "name": "Andrea Le",
-  "email": "andrea_le@fakegmail.com",
-  "movie_id": {"$oid": "573a1390f29313caabcd418c"},
-  "text": "Rem officiis eaque repellendus amet eos doloribus. Porro dolor voluptatum voluptates neque culpa molestias. Voluptate unde nulla temporibus ullam.",
-  "date": {"$date": {"$numberLong": "1332804016000"}}
-}
-```
-
-**Movies**
-```json
-{
-  "_id": {"$oid": "573a1390f29313caabcd4135"},
-  "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
-  "genres": ["Short"],
-  "runtime": {"$numberInt": "1"},
-  "cast": ["Charles Kayser", "John Ott"],
-  "num_mflix_comments": {"$numberInt": "1"},
-  "title": "Blacksmith Scene",
-  "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
-  "countries": ["USA"],
-  "released": {"$date": {"$numberLong": "-2418768000000"}},
-  "directors": ["William K.L. Dickson"],
-  "rated": "UNRATED",
-  "awards": {"wins": {"$numberInt": "1"}, "nominations": {"$numberInt": "0"}, "text": "1 win."},
-  "lastupdated": "2015-08-26 00:03:50.133000000",
-  "year": {"$numberInt": "1893"},
-  "imdb": {"rating": {"$numberDouble": "6.2"}, "votes": {"$numberInt": "1189"}, "id": {"$numberInt": "5"}},
-  "type": "movie",
-  "tomatoes": {
-    "viewer": {"rating": {"$numberInt": "3"}, "numReviews": {"$numberInt": "184"}, "meter": {"$numberInt": "32"}},
-    "lastUpdated": {"$date": {"$numberLong": "1435516449000"}}
-  }
-}
-```
-
-**Theaters**
-```json
-{
-  "_id": {"$oid": "59a47286cfa9a3a73e51e72c"},
-  "theaterId": {"$numberInt": "1000"},
-  "location": {
-    "address": {
-      "street1": "340 W Market",
-      "city": "Bloomington",
-      "state": "MN",
-      "zipcode": "55425"
-    },
-    "geo": {
-      "type": "Point",
-      "coordinates": [{"$numberDouble": "-93.24565"}, {"$numberDouble": "44.85466"}]
+  "_id": "10006546",
+  "listing_url": "https://www.airbnb.com/rooms/10006546",
+  "name": "Ribeira Charming Duplex",
+  "summary": "Fantastic duplex apartment with three bedrooms, located in the historic area of Porto, Ribeira (Cube)...",
+  "interaction": "Cot - 10 € / night Dog - € 7,5 / night",
+  "house_rules": "Make the house your home...",
+  "property_type": "House",
+  "room_type": "Entire home/apt",
+  "bed_type": "Real Bed",
+  "minimum_nights": "2",
+  "maximum_nights": "30",
+  "cancellation_policy": "moderate",
+  "last_scraped": {
+    "$date": {
+      "$numberLong": "1550293200000"
     }
-  }
-}
-```
-
-**Users**
-```json
-{
-  "_id": {"$oid": "59b99db4cfa9a34dcd7885b6"},
-  "name": "Ned Stark",
-  "email": "sean_bean@gameofthron.es",
-  "password": "$2b$12$UREFwsRUoyF0CRqGNK0LzO0HM/jLhgUCNNIJ9RJAqMUQ74crlJ1Vu"
+  },
+  "calendar_last_scraped": {
+    "$date": {
+      "$numberLong": "1550293200000"
+    }
+  },
+  "first_review": {
+    "$date": {
+      "$numberLong": "1451797200000"
+    }
+  },
+  "last_review": {
+    "$date": {
+      "$numberLong": "1547960400000"
+    }
+  },
+  "accommodates": {
+    "$numberInt": "8"
+  },
+  "bedrooms": {
+    "$numberInt": "3"
+  },
+  "beds": {
+    "$numberInt": "5"
+  },
+  "number_of_reviews": {
+    "$numberInt": "51"
+  },
+  "bathrooms": {
+    "$numberDecimal": "1.0"
+  },
+  "amenities": [
+    "TV",
+    "Cable TV",
+    "Wifi",
+    "Kitchen",
+    "Paid parking off premises",
+    "Smoking allowed",
+    "Pets allowed",
+    "Buzzer/wireless intercom",
+    "Heating",
+    "Family/kid friendly",
+    "Washer",
+    "First aid kit",
+    "Fire extinguisher",
+    "Essentials",
+    "Hangers",
+    "Hair dryer",
+    "Iron",
+    "Pack ’n Play/travel crib",
+    "Room-darkening shades",
+    "Hot water",
+    "Bed linens",
+    "Extra pillows and blankets",
+    "Microwave",
+    "Coffee maker",
+    "Refrigerator",
+    "Dishwasher",
+    "Dishes and silverware",
+    "Cooking basics",
+    "Oven",
+    "Stove",
+    "Cleaning before checkout",
+    "Waterfront"
+  ],
+  "price": {
+    "$numberDecimal": "80.00"
+  },
+  "security_deposit": {
+    "$numberDecimal": "200.00"
+  },
+  "cleaning_fee": {
+    "$numberDecimal": "35.00"
+  },
+  "extra_people": {
+    "$numberDecimal": "15.00"
+  },
+  "guests_included": {
+    "$numberDecimal": "6"
+  },
+  "images": {
+    "thumbnail_url": "",
+    "medium_url": "",
+    "picture_url": "https://a0.muscache.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
+    "xl_picture_url": ""
+  },
+  "host": {
+    "host_id": "51399391",
+    "host_url": "https://www.airbnb.com/users/show/51399391",
+    "host_name": "Ana&Gonçalo",
+    "host_location": "Porto, Porto District, Portugal",
+    "host_about": "Gostamos de passear, de viajar, de conhecer pessoas e locais novos, gostamos de desporto e animais! Vivemos na cidade mais linda do mundo!!!",
+    "host_response_time": "within an hour",
+    "host_thumbnail_url": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
+    "host_picture_url": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_x_medium",
+    "host_neighbourhood": "",
+    "host_response_rate": {
+      "$numberInt": "100"
+    },
+    "host_is_superhost": false,
+    "host_has_profile_pic": true,
+    "host_identity_verified": true,
+    "host_listings_count": {
+      "$numberInt": "3"
+    },
+    "host_total_listings_count": {
+      "$numberInt": "3"
+    },
+    "host_verifications": [
+      "email",
+      "phone",
+      "reviews",
+      "jumio",
+      "offline_government_id",
+      "government_id"
+    ]
+  },
+  "address": {
+    "street": "Porto, Porto, Portugal",
+    "suburb": "",
+    "government_area": "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+    "market": "Porto",
+    "country": "Portugal",
+    "country_code": "PT",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        {
+          "$numberDouble": "-8.61308"
+        },
+        {
+          "$numberDouble": "41.1413"
+        }
+      ],
+      "is_location_exact": false
+    }
+  },
+  "availability": {
+    "availability_30": {
+      "$numberInt": "28"
+    },
+    "availability_60": {
+      "$numberInt": "47"
+    },
+    "availability_90": {
+      "$numberInt": "74"
+    },
+    "availability_365": {
+      "$numberInt": "239"
+    }
+  },
+  "review_scores": {
+    "review_scores_accuracy": {
+      "$numberInt": "9"
+    },
+    "review_scores_cleanliness": {
+      "$numberInt": "9"
+    },
+    "review_scores_checkin": {
+      "$numberInt": "10"
+    },
+    "review_scores_communication": {
+      "$numberInt": "10"
+    },
+    "review_scores_location": {
+      "$numberInt": "10"
+    },
+    "review_scores_value": {
+      "$numberInt": "9"
+    },
+    "review_scores_rating": {
+      "$numberInt": "89"
+    }
+  },
+  "reviews": [
+    {
+      "_id": "362865132",
+      "date": {
+        "$date": {
+          "$numberLong": "1545886800000"
+        }
+      },
+      "listing_id": "10006546",
+      "reviewer_id": "208880077",
+      "reviewer_name": "Thomas",
+      "comments": "Very helpful hosts. Cooked traditional..."
+    },
+    {
+      "_id": "364728730",
+      "date": {
+        "$date": {
+          "$numberLong": "1546232400000"
+        }
+      },
+      "listing_id": "10006546",
+      "reviewer_id": "91827533",
+      "reviewer_name": "Mr",
+      "comments": "Ana & Goncalo were great on communication..."
+    },
+    {
+      "_id": "403055315",
+      "date": {
+        "$date": {
+          "$numberLong": "1547960400000"
+        }
+      },
+      "listing_id": "10006546",
+      "reviewer_id": "15138940",
+      "reviewer_name": "Milo",
+      "comments": "The house was extremely well located..."
+    }
+  ]
 }
 ```
 
