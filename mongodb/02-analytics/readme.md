@@ -137,85 +137,67 @@ Sure! Here's the JSON code in Markdown format:
 **Transactions**
 ```json
 {
-  "_id": {
-    "$oid": "5ca4bbc1a2dd94ee58161cb1"
-  },
-  "account_id": {
-    "$numberInt": "443178"
-  },
-  "transaction_count": {
-    "$numberInt": "66"
-  },
-  "bucket_start_date": {
-    "$date": {
-      "$numberLong": "-28598400000"
-    }
-  },
-  "bucket_end_date": {
-    "$date": {
-      "$numberLong": "1483401600000"
-    }
-  },
+  "_id": { "$oid": "5ca4bbc1a2dd94ee58161cb1" },
+  "account_id": { "$numberInt": "443178" },
+  "transaction_count": { "$numberInt": "66" },
+  "bucket_start_date": { "$date": { "$numberLong": "-28598400000" } },
+  "bucket_end_date": { "$date": { "$numberLong": "1483401600000" } },
   "transactions": [
     {
-      "date": {
-        "$date": {
-          "$numberLong": "1063065600000"
-        }
-      },
-      "amount": {
-        "$numberInt": "7514"
-      },
+      "date": { "$date": { "$numberLong": "1063065600000" } },
+      "amount": { "$numberInt": "7514" },
       "transaction_code": "buy",
       "symbol": "adbe",
       "price": "19.1072802650074180519368383102118968963623046875",
       "total": "143572.1039112657392422534031"
     },
-{
-  "date": {
-    "$date": {
-      "$numberLong": "1094601600000"
-    }
-  },
-  "amount": {
-    "$numberInt": "4322"
-  },
-  "transaction_code": "sell",
-  "symbol": "adbe",
-  "price": "42.51562081021308972541965598201751708984375",
-  "total": "183602.639526138149307764731"
-},
-{
-  "date": {
-    "$date": {
-      "$numberLong": "1107484800000"
-    }
-  },
-  "amount": {
-    "$numberInt": "5523"
-  },
-  "transaction_code": "buy",
-  "symbol": "adbe",
-  "price": "42.20494826784123509772421693006134033203125",
-  "total": "233032.6036405981249497238341"
-},
-{
-  "date": {
-    "$date": {
-      "$numberLong": "1120166400000"
-    }
-  },
-  "amount": {
-    "$numberInt": "3088"
-  },
-  "transaction_code": "sell",
-  "symbol": "adbe",
-  "price": "42.8742247023131658949199438240528106689453125",
-  "total": "132501.4532070292530454655487"
-}
-]
-}
-
+    {
+      "date": { "$date": { "$numberLong": "1465862400000" } },
+      "amount": { "$numberInt": "9240" },
+      "transaction_code": "buy",
+      "symbol": "team",
+      "price": "24.1525632387771480580340721644461154937744140625",
+      "total": "223169.6843263008480562348268"
+    },
+    {
+      "date": { "$date": { "$numberLong": "1038960000000" } },
+      "amount": { "$numberInt": "2824" },
+      "transaction_code": "buy",
+      "symbol": "msft",
+      "price": "21.046193953245431629284212249331176280975341796875",
+      "total": "59434.45172396509892109861539"
+    },
+    {
+      "date": { "$date": { "$numberLong": "1405296000000" } },
+      "amount": { "$numberInt": "7418" },
+      "transaction_code": "sell",
+      "symbol": "sap",
+      "price": "76.38514540536692720706923864781856536865234375",
+      "total": "566625.0086170118660220396123"
+    },
+    {
+      "date": { "$date": { "$numberLong": "1319760000000" } },
+      "amount": { "$numberInt": "5638" },
+      "transaction_code": "buy",
+      "symbol": "adbe",
+      "price": "28.365657608641175357888641883619129657745361328125",
+      "total": "159925.5775975189466677761629"
+    },
+    {
+      "date": { "$date": { "$numberLong": "1292803200000" } },
+      "amount": { "$numberInt": "6774" },
+      "transaction_code": "sell",
+      "symbol": "sap",
+      "price": "45.3237971108758159743956639431416988372802734375",
+      "total": "307023.4016290727774105562276"
+    },
+    {
+      "date": { "$date": { "$numberLong": "1445990400000" } },
+      "amount": { "$numberInt": "7251" },
+      "transaction_code": "sell",
+      "symbol": "nflx",
+      "price": "102.936674838205050264150
+      ... 
 ```
 
 --- asal
