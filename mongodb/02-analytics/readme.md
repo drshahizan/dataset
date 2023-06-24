@@ -8,7 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Dataset: sales.json
+# Analytics Dataset
 
 The analytics database contains three collections for a typical finanacial services application. It has customers, accounts, and transactions. 
 
