@@ -12,7 +12,7 @@ Don't forget to hit the :star: if you like this repo.
 ## MongoDB
 
 | Id | Title (JSON File) | Link (Used Icon) |
-|----|-------------------------------------------------------------------------------------------------------|------------------|
+|----|-------------------------------------------------------------------------------------------------------|:------------------:|
 | 1  | sales.json | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
 | 2  | accounts.json | [GitHub]() |
 | 3  | movies.json | [GitHub]() |
