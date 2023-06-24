@@ -285,13 +285,9 @@ The airbnb database is a compilation of vacation home listings and reviews avail
 }
 ```
 
-| Download |<img alt="activity status" height="24" src="../../images/download.png" />|
-|---|:---:|
-| Comments |<a href="comments.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
-| Movies|<a href="movies.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
-| Theaters|<a href="theaters.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
-| Users |<a href="users" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
-
+| Download <img alt="activity status" height="24" src="../../images/download.png" />|
+|:---:|
+| <a href="listingsAndReviews.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
