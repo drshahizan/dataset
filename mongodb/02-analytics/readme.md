@@ -10,9 +10,13 @@ Don't forget to hit the :star: if you like this repo.
 
 # Dataset: sales.json
 
-This database contains a single collection called `sales`.
+The analytics database contains three collections for a typical finanacial services application. It has customers, accounts, and transactions. 
 
-Each document in the collection represents a single sale from a store run by the supply company. Each document contains the items purchased, information on the customer who made the purchase, and several other details regarding the sale. It contains information about individual sales transactions, including the items purchased, customer details, store location, coupon usage, and purchase method.
+| Collection Name | Description                                |
+|-----------------|--------------------------------------------|
+| accounts        | Contains details on customer accounts.     |
+| customers       | Contains details on customers.             |
+| transactions    | Contains customer transactions.            |
 
 ## Data Dictionary
 
