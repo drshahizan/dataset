@@ -196,8 +196,11 @@ Sure! Here's the JSON code in Markdown format:
       "amount": { "$numberInt": "7251" },
       "transaction_code": "sell",
       "symbol": "nflx",
-      "price": "102.936674838205050264150
-      ... 
+      "price": "102.936674838205050264150",
+      "total": "143572.1039112657392422534031"
+     }
+  ]
+}
 ```
 
 --- asal
