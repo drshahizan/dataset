@@ -20,7 +20,7 @@ The analytics database contains three collections for a typical finanacial servi
 
 ## Data Dictionary
 
-Here are the data dictionaries represented in table format for each collection:
+The dataset consists of three tables: "Accounts," "Customers," and "Transactions." Each table represents a specific aspect of the data and provides valuable information it.
 
 **Accounts**
 
