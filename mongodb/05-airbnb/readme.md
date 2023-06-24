@@ -12,52 +12,43 @@ Don't forget to hit the :star: if you like this repo.
 
 The airbnb database is a compilation of vacation home listings and reviews available on Inside AirBnB. This database contains a single collection called `listingsAndReviews`. The `listingsAndReviews` collection contains documents that represent the vacation home listing details and reviews of customers about the listing. These documents reflect a randomized subset of the original publicly available source, from several different cities around the globe.
 
-| Collection Name | Description                                |
-|-----------------|--------------------------------------------|
-| Comments | This collection contains comments associated with specific movies. Each document contains the comment text, the user who submitted it, and the movie the comment applies to. |
-| Movies | This collection contains details on movies. Each document contains a single movie, and information such as its title, release year, and cast. |
-| Theaters | This collection contains movie theater locations. Each document contains a single movie theater and its location in both string and GeoJSON forms.|
-|Users| This collection contains information on mflix users. Each document contains a single user, and their name, email, and password.|
-
 ## Data Dictionary
 
-| Field                    | Type           | Description                                                                                              |
+| Field                    | Type           | Description |
 |--------------------------|----------------|----------------------------------------------------------------------------------------------------------|
-| _id                      | String         | Unique identifier for the listing                                                                         |
-| listing_url              | String         | URL of the listing on Airbnb                                                                              |
-| name                     | String         | Name of the listing                                                                                       |
-| summary                  | String         | Summary description of the listing                                                                         |
-| interaction              | String         | Information about interaction with the host                                                               |
-| house_rules              | String         | House rules for guests                                                                                    |
-| property_type            | String         | Type of property (e.g., house, apartment, etc.)                                                           |
-| room_type                | String         | Type of room (e.g., entire home/apt, private room, etc.)                                                  |
-| bed_type                 | String         | Type of bed (e.g., real bed, sofa bed, etc.)                                                              |
-| minimum_nights           | String         | Minimum number of nights for a booking                                                                     |
-| maximum_nights           | String         | Maximum number of nights for a booking                                                                     |
-| cancellation_policy      | String         | Cancellation policy for the listing                                                                        |
-| last_scraped             | Date           | Date when the listing was last scraped                                                                     |
-| calendar_last_scraped    | Date           | Date when the calendar was last scraped                                                                    |
-| first_review             | Date           | Date of the first review for the listing                                                                   |
-| last_review              | Date           | Date of the most recent review for the listing                                                             |
-| accommodates             | Integer        | Number of guests the listing can accommodate                                                               |
-| bedrooms                 | Integer        | Number of bedrooms                                                                                        |
-| beds                     | Integer        | Number of beds                                                                                            |
-| number_of_reviews        | Integer        | Total number of reviews for the listing                                                                    |
-| bathrooms                | Decimal        | Number of bathrooms                                                                                       |
-| amenities                | Array of strings | List of amenities provided in the listing                                                                  |
-| price                    | Decimal        | Price per night                                                                                           |
-| security_deposit         | Decimal        | Security deposit amount                                                                                    |
-| cleaning_fee             | Decimal        | Cleaning fee amount                                                                                        |
-| extra_people             | Decimal        | Additional fee for extra guests                                                                            |
-| guests_included          | Decimal        | Number of guests included in the base price                                                                |
-| images                   | Object         | URLs of images associated with the listing                                                                 |
-| host                     | Object         | Information about the host                                                                                 |
-| address                  | Object         | Address information for the listing                                                                        |
-| availability             | Object         | Availability information for the listing                                                                   |
-| review_scores            | Object         | Ratings and scores for the listing                                                                         |
-| reviews                  | Array of objects | List of reviews for the listing                                                                            |
-
-Note: The data types in the table correspond to the JSON data types used in the provided file.
+| `_id` | String         | Unique identifier for the listing                                                                         |
+| `listing_url` | String         | URL of the listing on Airbnb                                                                              |
+| `name` | String         | Name of the listing                                                                                       |
+| `summary` | String         | Summary description of the listing                                                                         |
+| `interaction` | String         | Information about interaction with the host                                                               |
+| `house_rules` | String         | House rules for guests                                                                                    |
+| `property_type` | String         | Type of property (e.g., house, apartment, etc.)                                                           |
+| `room_type` | String         | Type of room (e.g., entire home/apt, private room, etc.)                                                  |
+| `bed_type` | String         | Type of bed (e.g., real bed, sofa bed, etc.)                                                              |
+| `minimum_nights` | String         | Minimum number of nights for a booking                                                                     |
+| `maximum_nights` | String         | Maximum number of nights for a booking                                                                     |
+| `cancellation_policy` | String         | Cancellation policy for the listing |
+| `last_scraped` | Date           | Date when the listing was last scraped                                                                     |
+|` calendar_last_scraped` | Date           | Date when the calendar was last scraped |
+| `first_review` | Date           | Date of the first review for the listing                                                                   |
+| `last_review` | Date           | Date of the most recent review for the listing                                                             |
+| `accommodates` | Integer        | Number of guests the listing can accommodate                                                               |
+| `bedrooms` | Integer        | Number of bedrooms                                                                                        |
+| `beds` | Integer        | Number of beds                                                                                            |
+| `number_of_reviews` | Integer        | Total number of reviews for the listing |
+| `bathrooms` | Decimal        | Number of bathrooms                                                                                       |
+| `amenities` | Array of strings | List of amenities provided in the listing                                                                  |
+| `price` | Decimal        | Price per night                                                                                           |
+| `security_deposit` | Decimal        | Security deposit amount                                                                                    |
+| `cleaning_fee` | Decimal        | Cleaning fee amount                                                                                        |
+| `extra_people` | Decimal        | Additional fee for extra guests                                                                            |
+| `guests_included` | Decimal        | Number of guests included in the base price                                                                |
+| `images` | Object         | URLs of images associated with the listing                                                                 |
+| `host` | Object         | Information about the host                                                                                 |
+| `address` | Object         | Address information for the listing                                                                        |
+| `availability` | Object         | Availability information for the listing                                                                   |
+| `review_scores` | Object         | Ratings and scores for the listing                                                                         |
+| `reviews` | Array of objects | List of reviews for the listing                                                                            |
 
 ## Sample Document
 
