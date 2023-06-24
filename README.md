@@ -9,22 +9,22 @@ Don't forget to hit the :star: if you like this repo.
 
 # Dataset
 
-## MongoDB
+| Id | Dataset | Description | File |
+|----|---------|-------------|:------:|
+| 1  | Sales | Dataset containing sales data from the mock office supply company. | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
+| 2  | accounts.json | - | [GitHub]() |
+| 3  | movies.json | - | [GitHub]() |
+| 4  | grades.json | - | [GitHub]( ) |
+| 5  | stories.json | - | [GitHub]() |
+| 6  | customers.json | - | [GitHub]() |
+| 7  | trips.json | - | [GitHub]() |
+| 8  | nicd_hospital_surveillance_data.csv | - | [GitHub]() |
+| 9  | dataset.json | - | [GitHub]() |
+| 10 | city_inspections.json | - | [GitHub]() |
+| 11 | products.json | - | [GitHub]() |
+| 12 | airline-safety.csv | - | [GitHub]() |
 
-| Id | Title (JSON File) | Link (Used Icon) |
-|----|-------------------------------------------------------------------------------------------------------|:------------------:|
-| 1  | sales.json | <a href="/mongodb/01-sales" ><img src="images/dataset.png" width="24px" height="24px"></a> |
-| 2  | accounts.json | [GitHub]() |
-| 3  | movies.json | [GitHub]() |
-| 4  | grades.json | [GitHub]( ) |
-| 5  | stories.json | [GitHub]() |
-| 6  | customers.json | [GitHub]() |
-| 7  | trips.json | [GitHub]() |
-| 8  | nicd_hospital_surveillance_data.csv | [GitHub]() |
-| 9  | dataset.json | [GitHub]() |
-| 10 | city_inspections.json | [GitHub]() |
-| 11 | products.json | [GitHub]() |
-| 12 | airline-safety.csv | [GitHub]() |
+The "Description" column provides a brief description of each dataset. For the datasets other than "sales.json", the description column is currently empty.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
