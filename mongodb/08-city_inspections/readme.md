@@ -31,7 +31,21 @@ The City Inspections Dataset provides information about inspections conducted in
 ## Sample Document
 
 ```json
-{"_id":{"$oid":"56d61033a378eccde8a8354f"},"id":"10021-2015-ENFO","certificate_number":9278806,"business_name":"ATLIXCO DELI GROCERY INC.","date":"Feb 20 2015","result":"No Violation Issued","sector":"Cigarette Retail Dealer - 127","address":{"city":"RIDGEWOOD","zip":11385,"street":"MENAHAN ST","number":1712}}
+{
+  "_id": { "$oid": "56d61033a378eccde8a8354f" },
+  "id": "10021-2015-ENFO",
+  "certificate_number": 9278806,
+  "business_name": "ATLIXCO DELI GROCERY INC.",
+  "date": "Feb 20 2015",
+  "result": "No Violation Issued",
+  "sector": "Cigarette Retail Dealer - 127",
+  "address": {
+    "city": "RIDGEWOOD",
+    "zip": 11385,
+    "street": "MENAHAN ST",
+    "number": 1712
+  }
+}
 ```
 
 | Download <img alt="activity status" height="24" src="../../images/download.png" />|
