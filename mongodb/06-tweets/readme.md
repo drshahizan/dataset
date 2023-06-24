@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Tweets Dataset
 
-This collection contains information on companies listed on Crunchbase. It has a variety of information such as the company website and/or blog websites about the company, funding rounds, and known individuals associated with the company.
+Tweets are short messages or posts that users share on social media platforms like Twitter. A tweets JSON file provides structured data that can be easily processed and analyzed for extracting insights, conducting research, or building applications.
 
 ## Data Dictionary
 
