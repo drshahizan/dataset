@@ -8,9 +8,9 @@
 Don't forget to hit the :star: if you like this repo.
 
 
-# Analytics Dataset
+# Mflix Dataset
 
-The analytics database contains three collections for a typical finanacial services application. It has customers, accounts, and transactions. 
+The database contains data on movies and movie theaters. The database also contains collections for certain metadata, including users and comments on specific movies.
 
 | Collection Name | Description                                |
 |-----------------|--------------------------------------------|
