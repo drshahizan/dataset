@@ -30,7 +30,6 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | limit        | Integer    | The account's limit.                                 |
 | products     | Array      | A list of products associated with the account.       |
 
-
 **Customers**
 
 | Field            | Type       | Description                                              |
@@ -54,7 +53,6 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | transactions       | Array      | A list of individual transaction details.              |
 
 ## Sample Document
-Sure! Here's the JSON code in Markdown format:
 
 **Comments**
 ```json
