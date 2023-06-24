@@ -23,10 +23,10 @@ The City Inspections Dataset provides information about inspections conducted in
 | 6  | result                | String   | Result of the inspection                           |
 | 7  | sector                | String   | Sector or category of the business                |
 | 8  | address               | Object   | Address details of the business                    |
-| 8a | - city                | String   | City where the business is located                |
-| 8b | - zip                 | Number   | ZIP code of the business                          |
-| 8c | - street              | String   | Street name of the business                       |
-| 8d | - number              | Number   | Street number of the business                     |
+|  | - city                | String   | City where the business is located                |
+|  | - zip                 | Number   | ZIP code of the business                          |
+|  | - street              | String   | Street name of the business                       |
+|  | - number              | Number   | Street number of the business                     |
 
 ## Sample Document
 
