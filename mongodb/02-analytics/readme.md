@@ -158,7 +158,7 @@ Please note that the data types provided in the table are based on the example d
 
 
 | <img alt="activity status" align="right" height="24" src="../../images/download.png" /> Download |
-|:---:|
+|:---|
 |  Accounts <a href="sales.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a> |
 |  Customers <a href="sales.json" ><img src="../../images/dataset.png" width="24px" height="24px"></a> |
 |  Transactions <a href="sales.json" ><img src="../../images/dataset.png" width="24px" height="24px"></a> |
