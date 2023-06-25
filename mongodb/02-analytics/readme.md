@@ -204,7 +204,7 @@ The dataset consists of three tables: "Accounts," "Customers," and "Transactions
 | Download |<img alt="activity status" height="24" src="../../images/download.png" />|
 |---|:---:|
 | Accounts |<a href="accounts.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
-| Customers|<a href="customer.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
+| Customers|<a href="customers.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
 | Transactions|<a href="transactions.json" ><img src="../../images/dataset.png" width="24px" height="24px" ></a>|
 
 
